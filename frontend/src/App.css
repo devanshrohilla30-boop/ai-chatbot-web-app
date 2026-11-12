@@ -1,0 +1,27 @@
+
+.loading-message {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #b8a6f5;
+}
+
+.loading-message svg {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.error-message {
+  margin: 12px 0 12px 48px;
+  padding: 12px 15px;
+  border: 1px solid #743c48;
+  border-radius: 10px;
+  background: #351e27;
+  color: #ffb4c0;
+  font-size: 13px;
+}
